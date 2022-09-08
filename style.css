@@ -94,6 +94,10 @@ body {
 
 /* media query for tab or bigger */
 @media screen and (min-width: 600px) and (min-height: 500px) {
+  .container {
+    background-position: bottom -100px center;
+  }
+
   #button {
     left: initial;
     right: 30px;
@@ -132,11 +136,6 @@ body {
 
 
 @media screen and (max-height: 500px) {
-  .container {
-    background-size: contain;
-    background-position: bottom center;
-  }
-
   .contact-container {
     width: 120px;
     height: 70px;
